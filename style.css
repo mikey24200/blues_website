@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin-right: 100px;
+    margin-left: 50px;
+}
+.logo{ 
+    width: 125;
+    height: 125;
+    margin-top: 300;
+    margin-bottom: 45;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav{
+    position: fixed;
+    top: 50%;
+    left: 40%;
+}
+.common-btn{
+    float: left;
+    width: 120;
+    padding: 10px 10px;
+    background: black;
+    color: white;
+    outline: none;
+    border: 0px solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.common-btn:hover{
+    background-color: gray;
+}
