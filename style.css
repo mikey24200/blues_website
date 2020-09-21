@@ -16,7 +16,7 @@
     margin-left: -50px; /* Half the width */
 }
 .buttons{/* Positioning of buttons */
-    background-color:transparent;
+    background-color: transparent;
     position: absolute;
     top: 50%;
 }
