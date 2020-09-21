@@ -1,38 +1,44 @@
-*{
-    margin: 0;
-    padding: 0;
-}
 .container{
-    margin-right: 100px;
-    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 800;
+    background-color: transparent;
 }
-.logo{ 
-    width: 125;
-    height: 125;
-    margin-top: 300;
-    margin-bottom: 45;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+#growl-size{ /* Positioning of logo*/
+    background-color: transparent;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: -50px; /* Half the height */
+    margin-left: -50px; /* Half the width */
 }
-.nav{
-    position: fixed;
+.buttons{/* Positioning of buttons */
+    background-color: blue  ;
+    position: absolute;
     top: 50%;
-    left: 40%;
 }
-.common-btn{
-    float: left;
-    width: 120;
-    padding: 10px 10px;
-    background: black;
-    color: white;
-    outline: none;
-    border: 0px solid;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.button{ /* Style for buttons */
     font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15 24;
     cursor: pointer;
-    margin-top: 10px;
+    border: none;
+    background-color: black;
+    color: whitesmoke;
+    float: left;
+    
 }
-.common-btn:hover{
+.button:hover{
     background-color: gray;
+}
+@viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+@-ms-viewport{
+    width: extend-to-zoom;
+    zoom: 1;
 }
